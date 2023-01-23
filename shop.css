@@ -65,38 +65,44 @@ main {
   display: flex;
  justify-content: center;
  align-items: center;
-  gap: 50px;
-  overflow: srcoll;
-}
-
-.button-forward, .button-back {
-  font-size: 30px;
-  border-radius: 50%;
-  background-color: cyan;
-  cursor: pointer;
-}
-
-.button-forward {
-  position: relative;
-  left: 95%;
-  bottom: 85px;
-  z-index: 2;
-}
-
-.button-back {
-  position: relative;
-  top: 112px;
-  left: 10px;
-}
-
+  gap: 20px;   
+}   
+   
+.button-forward, .button-back {   
+  font-size: 30px;   
+  border-radius: 50%;   
+  background-color: cyan;   
+  cursor: pointer;   
+}   
+   
+.button-forward {   
+  position: relative;   
+  left: 95%;   
+  bottom: 85px;   
+  z-index: 2;   
+}   
+   
+.button-back {   
+  position: relative;   
+  top: 112px;   
+  left: 10px;   
+}   
+   
 .items {
   border: solid green;
   position: relative;
   width: 100px;
   background-color: green;
   border-radius: 5px;
+  display: grid;
+  place-items: center;
 }
 
 .items > img  {
 width: 80px;
+}
+
+span {
+  color: red;
+  text-decoration: line-through;
 }
