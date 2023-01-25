@@ -5,9 +5,16 @@ var nextButton = document.querySelector('.button-forward');
 var backButton = document.querySelector('.button-back');
 
 
-items.forEach((card, index) => {
-    card.style.left = cardSize * index + 'px';
-  })
-
 
 console.log(item_Width);
+
+
+
+nextButton.addEventListener('click', function() {
+itemContainer.style.transform = 'translateX(-100px)';
+});
+
+
+backButton.addEventListener('click', function() {
+itemContainer.style.transform = 'translateX(100px)';
+});
