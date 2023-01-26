@@ -11,10 +11,10 @@ console.log(item_Width);
 
 
 nextButton.addEventListener('click', function() {
-itemContainer.style.transform = 'translateX(-100px)';
+itemContainer.style.transform = 'translateX(-20%)';
 });
 
 
 backButton.addEventListener('click', function() {
-itemContainer.style.transform = 'translateX(100px)';
+itemContainer.style.transform = 'translateX(20%)';
 });

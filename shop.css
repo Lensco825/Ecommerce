@@ -19,6 +19,10 @@ nav > p {
   cursor: pointer;
 }
 
+nav > p:hover {
+  color: cadetblue;
+}
+
 .pfp {
   width: 25px;
   height: 25px;
@@ -129,13 +133,13 @@ main {
 }
 
 .item_container {
-  width: 100%;
+  width: 200%;
   height: 100%;
   transition: 0.5s;
   display: flex;
   justify-content: space-around;
  align-items: flex-start;
-  gap: 5%;   
+ gap: 5%;
   overflow: hidden;
 }   
    
