@@ -302,3 +302,185 @@ font-weight: 700;
   content: '$46.99';
   top: 170px
 }
+
+.items_2:nth-child(1) {
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=800");
+}
+
+.items_2:nth-child(1):before {
+  content: 'Nike Air Force 1s';
+}
+
+.items_2:nth-child(1):after {
+  content: '$44.99';
+}
+
+
+.items_2:nth-child(2) {
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+
+.items_2:nth-child(2):before {
+  content: 'Gleaming High Heals';
+}
+
+.items_2:nth-child(2):after {
+  content: '$15.99';
+}
+
+
+.items_2:nth-child(3) {
+  background-size: cover;
+  background-image: url("https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw302b5730/images/e_08/568497C_E_08X1.jpg?sw=406");
+}
+
+.items_2:nth-child(3):before {
+  content: 'Blue Tuck taylor high casuals';
+}
+
+.items_2:nth-child(3):after {
+  content: '$12 .99';
+}
+
+.items_2:nth-child(4) {
+  background-size: cover;
+  background-image: url("https://i5.walmartimages.com/asr/db7140bf-092f-45f3-a642-3cc661342962_1.9754453d5f6ab84f892c9ab0faa5e3f8.jpeg");
+}
+
+.items_2:nth-child(4):before {
+  content: 'Winter Boots';
+}
+
+.items_2:nth-child(4):after {
+  content: '$12.99';
+}
+
+.items_2:nth-child(5) {
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+}
+
+.items_2:nth-child(5):before {
+  content: 'Nike WMNS Air force 1s';
+}
+
+.items_2:nth-child(5):after {
+  content: '$35.99';
+}
+
+.items_2:nth-child(6) {
+  background-size: cover;
+  background-image: url("https://image.peltzshoes.com/images/products/1_797336_ZM.jpg");
+}
+
+.items_2:nth-child(6):before {
+  content: 'Ward Sneaker Vans';
+}
+
+.items_2:nth-child(6):after {
+  content: '$19.99';
+}
+
+.items_2:nth-child(7) {
+  background-size: cover;
+  background-image: url("https://cdna.lystit.com/photos/bloomingdales/bd3b6292/timberland-Rust-Womens-Courmayeur-Valley-Round-Toe-Suede-Shearling-Boots.jpeg");
+}
+
+.items_2:nth-child(7):before {
+  content: 'Timberlands whiteout Boots';
+}
+
+.items_2:nth-child(7):after {
+  content: '$10.99';
+}
+
+.items_2:nth-child(8) {
+  background-size: cover;
+  background-image: url("https://cdna.lystit.com/photos/1284-2015/12/20/converse-rebel-teal-womens-chuck-taylor-hi-casual-sneakers-from-finish-line-blue-product-3-955403719-normal.jpeg");
+}
+
+.items_2:nth-child(8):before {
+  content: 'Teal Tuck taylor high casuals';
+}
+
+.items_2:nth-child(8):after {
+  content: '$16.99';
+  top: 170px
+}
+
+.sports {
+  height: 25rem;
+  background-color: green;
+  background-image: ;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat';
+  background-image: url("https://media.istockphoto.com/id/187330520/photo/football-field-corner-with-white-marks.jpg?b=1&s=170667a&w=0&k=20&c=-P5I-MZQiEBIxfoqisN61VRt8dAfGTAFptZ6O-aH7x4=");
+  background-size: cover;
+}
+
+.sports_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 350px;
+}
+
+.sport {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  border: solid 0.5px white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
+
+.sport:nth-child(1) {
+  background-image: url('https://images.unsplash.com/photo-1532508583690-538a1436f423?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80');
+  background-size: cover;
+}
+
+.sport:nth-child(2) {
+  background-image: url('https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-size: cover;
+}
+
+.sport:nth-child(3) {
+  background-image: url('https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=581&q=80');
+  background-size: cover;
+}
+
+.sport:nth-child(4) {
+  background-image: url('https://images.unsplash.com/photo-1620740528428-59fb523a484a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-size: cover;
+}
+
+.sport:hover {
+  backdrop-filter: brightness(50px);
+  background-color: black;
+  background-image: none;
+}
+
+.sport:hover:before {
+  position: relative;
+  content: 'Sport';
+  font-family: 'Poppins';
+  color: white;
+  top: 47%;
+  left: 35%;
+}
