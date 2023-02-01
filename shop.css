@@ -45,6 +45,12 @@ nav > p:hover {
   font-family: 'Poppins';
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+.winterSale > img {
+  width: 200px;
+  border-radius: 10px;
 }
 
 .winterSale > div {
@@ -113,11 +119,11 @@ content: 'Women';
   border-radius: 10px;
 }
 
-main > h1 {
+.carousel > h1 {
   font-family: 'Poppins';
   margin: 0;
 }
-main {
+.carousel {
   width: 100%;
   margin: 0;
   height: 30rem;
@@ -591,4 +597,89 @@ button:hover {
   color: white;
   top: 47%;
   left: 35%;
+}
+
+.sport:nth-child(1):hover::before {
+  content: 'Golf';
+}
+
+.sport:nth-child(2):hover::before {
+  content: 'Tennis';
+}
+
+.sport:nth-child(3):hover::before {
+  content: 'Soccer';
+}
+
+.sport:nth-child(4):hover::before {
+  content: 'Baseball';
+}
+
+.logo_text {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3a86ff;
+}
+
+
+nav > p:nth-child(1) {
+  font-size: 20px;
+}
+
+nav > p:nth-child(1) {
+  color: black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #000814;
+  color: white;
+  font-family: 'Montserrat';
+  height: 10rem;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  gap: 8px;
+}
+
+li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li:hover {
+  color: blue;
+}
+
+@media (max-width: 435px) {
+  nav > ion-icon {
+    display: none;
+  }
+.winterSale > div {
+  font-size: 13px;
+}
+}
+
+@media (max-width: 369px) {
+  nav > div {
+    display: none;
+  }
+}
+
+@media (max-width: 618px) {
+  .sport {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 428px) {
+  .shoe_type {
+    width: 100px;
+    height: 180px;
+  }
 }
