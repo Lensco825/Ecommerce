@@ -134,18 +134,14 @@ content: 'Women';
   overflow: hidden;
 }
 
-.visible_items > h1 {
-  font-family: 'Sofia sans';
-}
-
 .item_container {
   width: 200%;
   height: 100%;
   transition: 0.5s;
   display: flex;
+  gap: 5%;
   justify-content: space-around;
  align-items: flex-start;
- gap: 5%;
   overflow: hidden;
 }   
    
@@ -173,20 +169,10 @@ content: 'Women';
 .items {
   width:  500px;
   height: 200px;
-  background-color: green;
   border-radius: 5px;
   display: grid;
   place-items: center;
   font-family: 'Montserrat';
-}
-
-.items > img  {
-width: 80px;
-}
-
-span {
-  color: red;
-  text-decoration: line-through;
 }
 
 .items:before {
@@ -530,9 +516,14 @@ font-weight: 700;
   background-image: ;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   font-family: 'Montserrat';
   background-image: url("https://media.istockphoto.com/id/187330520/photo/football-field-corner-with-white-marks.jpg?b=1&s=170667a&w=0&k=20&c=-P5I-MZQiEBIxfoqisN61VRt8dAfGTAFptZ6O-aH7x4=");
   background-size: cover;
+}
+
+.sports_text {
+  width: 15rem;
 }
 
 .sports_grid {
@@ -595,8 +586,8 @@ button:hover {
   content: 'Sport';
   font-family: 'Poppins';
   color: white;
-  top: 47%;
-  left: 35%;
+  top: 40px;
+  left: 20px;
 }
 
 .sport:nth-child(1):hover::before {

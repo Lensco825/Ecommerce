@@ -1,10 +1,4 @@
 var itemContainer = document.querySelector('.item_container')
-var items = Array.from(itemContainer.children);
-var item_Width = items[0].getBoundingClientRect().width;
-var nextButton = document.querySelectorAll('.button-forward');
-var backButton = document.querySelectorAll('.button-back');
-
-console.log(document.querySelector('html').getBoundingClientRect().width);
 
 // get all carousels in the page
 const carousels = document.body.querySelectorAll(".carousel");
